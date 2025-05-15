@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Matrix</title>
+    <style>
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .book {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Matrix</h1>
+    <div class="book-grid">
+        <!-- Book 1 -->
+        <div class="book">
+            <img src="path-to-your-image/book1.jpg" alt="Book Cover 1">
+            <h3>Book Title 1</h3>
+            <p>Author: Author Name 1</p>
+            <p>Read by: Pupil Name 1</p>
+        </div>
+        <!-- Book 2 -->
+        <div class="book">
+            <img src="path-to-your-image/book2.jpg" alt="Book Cover 2">
+            <h3>Book Title 2</h3>
+            <p>Author: Author Name 2</p>
+            <p>Read by: Pupil Name 2</p>
+        </div>
+        <!-- Add more books as needed -->
+    </div>
+</body>
+</html>
